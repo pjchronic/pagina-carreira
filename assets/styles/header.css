@@ -1,32 +1,32 @@
 header {
-    margin: 10px;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 37px;
+    gap: 1rem;
 }
 
 header .cabecalho__logo {
-    width: 4.375em;
-    height: 4.375em;
+    width: 5rem;
+    height: 5rem;
     background-color: var(--branco);
     border-radius: 100%;
-    padding: 0.313em;
+    padding: 0.3rem;
 }
 
 header .cabecalho__logo img {
-    width: 3.875em;
-    height: 3.875em;
+    width: 4.7rem;
+    height: 4.7rem;
 }
 
 header .cabecalho__title {
     font-weight: 500;
-    font-size: 0.75em;
+    font-size: 0.7rem;
     text-align: center;
     background-color: var(--cor-wt);
-    padding-inline: 1.25em;
-    border-radius: 2.813em;
-    text-shadow: 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.5);
-    -webkit-text-stroke: 0.5px #757575;
+    padding-inline: 0.938rem;
+    border-radius: 2.109rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+    -webkit-text-stroke: 0.037rem #757575;
 }

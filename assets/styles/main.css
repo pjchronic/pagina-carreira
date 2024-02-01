@@ -1,12 +1,14 @@
 main {
-    width: 1071px;
+    max-height: 500px;
     padding: 14px;
+    overflow-y: scroll;
     background-color: var(--cor-wt);
     border-radius: 14px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 14px;
-    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    margin: 0 50px 90px 50px;
 }
 
 main a {
