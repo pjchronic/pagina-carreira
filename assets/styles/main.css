@@ -1,14 +1,14 @@
 main {
-    max-height: 500px;
-    padding: 14px;
+    max-height: 32.3rem;
+    padding: 1.2rem;
     overflow-y: scroll;
     background-color: var(--cor-wt);
-    border-radius: 14px;
+    border-radius: 0.875rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 14px;
-    margin: 0 50px 90px 50px;
+    gap: 0.9rem;
+    margin: 0 6rem 2rem 6rem;
 }
 
 main a {
@@ -16,31 +16,31 @@ main a {
 }
 
 .vaga {
-    width: 197.4px;
-    height: 238px;
+    width: 12.3375rem;
+    height: 14.875rem;
     background-color: var(--cor-bs);
-    border-radius: 14px;
+    border-radius: 0.875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 28px;
-    padding: 170px 20px 20px 20px;
+    gap: 1.75rem;
+    padding: 10.625rem 1.25rem 1.25rem 1.25rem;
     overflow: hidden;
     transition: padding 0.3s ease-in-out, gap 0.3s ease-in-out;
 }
 
 .vaga:hover {
-    padding: 0 20px 98px 20px;
-    gap: 75px;
+    padding: 0 1.25rem 6.125rem 1.25rem;
+    gap: 4.6875rem;
 }
 
 .icon {
-    width: 57.4px;
-    height: 57.4px;
+    width: 3.5875rem;
+    height: 3.5875rem;
     border-radius: 100%;
     background-color: var(--branco);
-    font-size: 36.4px;
+    font-size: 2.275rem;
     color: var(--cor-bs);
     display: flex;
     align-items: center;
@@ -48,25 +48,25 @@ main a {
 }
 
 .vaga__name {
-    font-size: 24.5px;
+    font-size: 1.53125rem;
     font-weight: 500;
     color: var(--branco);
+    text-align: center;
 }
 
 .vaga__name_variação {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--branco);
+    text-align: center;
 }
-
-
 
 .hover {
     background-color: var(--branco);
-    width: 197.4px;
-    height: 102.2px;
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
+    width: 12.3375rem;
+    height: 6.3875rem;
+    border-bottom-left-radius: 0.875rem;
+    border-bottom-right-radius: 0.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,33 +75,32 @@ main a {
 
 .vaga__hover {
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.3125rem;
     color: var(--cor-bs);
-    margin: 5px;
+    margin: 0.3125rem;
 }
 
 .hover img {
-    width: 143.5px;
-    height: 37.8px;
-    margin-bottom: 10px;
+    width: 8.96875rem;
+    height: 2.3625rem;
+    margin-bottom: 0.625rem;
 }
 
 footer {
     position: fixed;
     align-self: self-end;
-    margin: 20px 20px 20px 0;
+    margin: 1.25rem 1.25rem 1.25rem 0;
     bottom: 0;
 }
 
 footer .made {
     font-weight: 200;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 footer .made a {
     text-decoration: none;
     color: aqua;
-
 }
 
 footer .made a:hover {
