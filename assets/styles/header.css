@@ -20,7 +20,8 @@ header .cabecalho__logo img {
     height: 4.7rem;
 }
 
-.search {
+.search__container {
+
     background-color: var(--cor-wt);
     width: 16rem;
     height: 2.5rem;
@@ -30,7 +31,9 @@ header .cabecalho__logo img {
     align-items: center;
     gap: 0.625rem;
     margin: 1rem;
+
 }
+
 
 .search input[type="text"] {
     background: none;
