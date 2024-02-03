@@ -67,7 +67,7 @@ main a {
     background-color: var(--branco);
     width: 12.3375rem;
     height: 6rem;
-    border-bottom-radius: 0.875rem;
+    border-end-start-radius: 0.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
