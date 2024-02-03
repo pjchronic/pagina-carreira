@@ -13,14 +13,22 @@ search_input.addEventListener('keyup', () => {
 
             if (textoDoResultado.includes(busca)) {
                 aElement.style.display = 'block'; 
-                noResult.classList.remove('appear');
             } else {
-
                 aElement.style.display = 'none';
-                noResult.classList.add('appear');
-                
             }
         }
     });
-    
+
+    if (busca === '') {
+        noResult.classList.remove('appear');
+        noResult.classList.add('hidden');
+    } else {
+        let anyVisible = Array.from(results).some(result => {
+            let aElement = result.closest('a');
+            return aElement && aElement.style.display === 'block';
+        });
+
+        noResult.classList.toggle('appear', !anyVisible);
+        noResult.classList.toggle('hidden', anyVisible);
+    }
 });
