@@ -1,12 +1,12 @@
 main {
-    max-height: 32.3rem;
+    max-width: 67.8rem;
+    max-height: 17rem;
     padding: 1.2rem;
     overflow-y: scroll;
     background-color: var(--cor-wt);
     border-radius: 0.875rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 0.9rem;
     margin: 0 6rem 2rem 6rem;
 }
@@ -25,7 +25,7 @@ main a {
     align-items: center;
     justify-content: center;
     gap: 1.75rem;
-    padding: 10.625rem 1.25rem 1.25rem 1.25rem;
+    padding: 11rem 1.25rem 1.5rem 1.25rem;
     overflow: hidden;
     transition: padding 0.3s ease-in-out, gap 0.3s ease-in-out;
 }
@@ -36,6 +36,7 @@ main a {
 }
 
 .icon {
+    top: 0;
     width: 3.5875rem;
     height: 3.5875rem;
     border-radius: 100%;
@@ -59,14 +60,14 @@ main a {
     font-weight: 500;
     color: var(--branco);
     text-align: center;
+
 }
 
 .hover {
     background-color: var(--branco);
     width: 12.3375rem;
-    height: 6.3875rem;
-    border-bottom-left-radius: 0.875rem;
-    border-bottom-right-radius: 0.875rem;
+    height: 6rem;
+    border-bottom-radius: 0.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +84,7 @@ main a {
 .hover img {
     width: 8.96875rem;
     height: 2.3625rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.6rem;
 }
 
 footer {
