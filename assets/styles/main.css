@@ -1,14 +1,15 @@
 main {
     max-width: 69rem;
-    max-height: 17rem;
+    max-height: 15rem;
     padding: 1.2rem;
     overflow-y: scroll;
-    background-color: var(--cor-wt);
     border-radius: 0.875rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.9rem;
     margin: 0 5rem 2rem 6rem;
+    scrollbar-width: thin;
+    scrollbar-color: transparent;
 }
 
 main a {
@@ -17,56 +18,30 @@ main a {
 
 .vaga {
     width: 12.3375rem;
-    height: 14.875rem;
+    height: 13rem;
     background-color: var(--cor-bs);
     border-radius: 0.875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1.75rem;
-    padding: 11rem 1.25rem 1.5rem 1.25rem;
     overflow: hidden;
-    transition: padding 0.3s ease-in-out, gap 0.3s ease-in-out;
 }
 
-.vaga:hover {
-    padding: 0 1.25rem 6.125rem 1.25rem;
-    gap: 4.6875rem;
-}
-
-.icon {
-    top: 0;
-    width: 3.5875rem;
-    height: 3.5875rem;
-    border-radius: 100%;
-    background-color: var(--branco);
-    font-size: 2.275rem;
-    color: var(--cor-bs);
+.vaga__container {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.vaga__name {
-    font-size: 1.53125rem;
-    font-weight: 500;
-    color: var(--branco);
-    text-align: center;
-}
-
-.vaga__name_variação {
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: var(--branco);
-    text-align: center;
-
+    flex-direction: column;
+    padding-top: 8.7rem;
+    gap: 1.5rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .hover {
     background-color: var(--branco);
     width: 12.3375rem;
-    height: 6rem;
+    height: 4rem;
     border-end-start-radius: 0.875rem;
     display: flex;
     justify-content: center;
@@ -74,17 +49,49 @@ main a {
     flex-direction: column;
 }
 
+.vaga__container:hover  {
+    transform: translateY(-6.5rem);
+}
+
+.icon {
+    top: 0;
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vaga__name {
+    display: block;
+    width: 11rem;
+    height: 4rem;
+    font-size: 1.53125rem;
+    font-weight: 500;
+    color: var(--branco);
+    text-align: center;
+    margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.vaga__name_variação {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--branco);
+    text-align: center;
+    margin: 1rem 1rem 1.5rem 1rem;
+}
+
 .vaga__hover {
     font-weight: 500;
     font-size: 1.3125rem;
     color: var(--cor-bs);
-    margin: 0.3125rem;
 }
 
 .hover img {
     width: 8.96875rem;
     height: 2.3625rem;
-    margin-bottom: 0.6rem;
 }
 
 footer {
@@ -114,4 +121,14 @@ footer .made a:hover {
 
 .appear {
     display: block;
+}
+
+.main::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+}
+
+.main::-webkit-scrollbar-track {
+    border-radius: 50%;
+    width: 4px;
 }

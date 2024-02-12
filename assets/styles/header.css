@@ -8,16 +8,20 @@ header {
 }
 
 header .cabecalho__logo {
-    width: 5rem;
-    height: 5rem;
-    background-color: var(--branco);
+    width: 7rem;
+    height: 7rem;
     border-radius: 100%;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+header .cabecalho__logo:hover {
+    background-color: var(--branco);
 }
 
 header .cabecalho__logo img {
-    width: 4.7rem;
-    height: 4.7rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .search__container {
@@ -29,9 +33,13 @@ header .cabecalho__logo img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.625rem;
     margin: 1rem;
+}
 
+.search {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
 }
 
 
